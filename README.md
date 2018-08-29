@@ -12,11 +12,13 @@ bash dachcoin_install.sh
 ************************************************************************************************
 
 If you dont know to setup collateral, read the MN-install.pdf
+
 https://github.com/dachcoin/masternode-install/raw/master/MN-install.pdf
 
 ************************************************************************************************
 
 If you want to setup your MN step by step.read the MN-install-longversion.pdf
+
 https://github.com/dachcoin/masternode-install/raw/master/MN-install-longversion.pdf
 
 
