@@ -21,4 +21,8 @@ If you want to setup your MN step by step.read the MN-install-longversion.pdf
 
 https://github.com/dachcoin/masternode-install/raw/master/MN-install-longversion.pdf
 
+************************************************************************************************
+Deutsche Anleitung zum Masternode Install Script
+
+https://github.com/dachcoin/masternode-install/raw/master/MN-installscript-deutsch.pdf
 
