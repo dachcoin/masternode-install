@@ -3,8 +3,8 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='dachcoin.conf'
 CONFIGFOLDER='/root/.dachcore'
-COIN_DAEMON='dachcoind'
-COIN_CLI='dachcoin-cli'
+COIN_DAEMON='dachd'
+COIN_CLI='dach-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/dachcoin/dach/releases/download/v1.0.0.0/dach-1.0.0.0-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
