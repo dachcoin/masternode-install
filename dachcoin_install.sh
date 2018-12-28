@@ -6,11 +6,11 @@ CONFIGFOLDER='/root/.dachcoin'
 COIN_DAEMON='dachcoind'
 COIN_CLI='dachcoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/dachcoin/dachcoin/releases/download/v1.0.1.0/dachcoin-1.0.1.0-x86_64-linux-gnu.tar.gz'
+COIN_TGZ='https://github.com/dachcoin/dach/releases/download/v1.0.0.0/dach-1.0.0.0-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Dachcoin'
-COIN_PORT=31701
-RPC_PORT=31702
+COIN_PORT=31654
+RPC_PORT=31754
 
 NODEIP=$(curl -s4 api.ipify.org)
 
