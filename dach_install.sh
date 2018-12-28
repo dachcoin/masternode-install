@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='dachcoin.conf'
+CONFIG_FILE='dach.conf'
 CONFIGFOLDER='/root/.dachcore'
 COIN_DAEMON='dachd'
 COIN_CLI='dach-cli'
