@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='dachcoin.conf'
-CONFIGFOLDER='/root/.dachcoin'
+CONFIGFOLDER='/root/.dachcore'
 COIN_DAEMON='dachcoind'
 COIN_CLI='dachcoin-cli'
 COIN_PATH='/usr/local/bin/'
