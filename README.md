@@ -1,5 +1,5 @@
-# masternode-install
-Guide for DACHCOIN Masternode install
+# masternode-install UPDATED FOR DACHX !!
+Guide for DACHCOIN (DACHX) Masternode install
 
 Install script to install a DACHCOIN Masternode on Ubuntu 16.4 Linux on your own risk.
 
@@ -14,6 +14,8 @@ bash dach_install.sh
 If you dont know to setup collateral, read the MN-install.pdf
 
 https://github.com/dachcoin/masternode-install/raw/master/MN-install.pdf
+
+Please replace 5k Collateral to 25k Collateral in this PDF !
 
 ************************************************************************************************
 
