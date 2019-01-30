@@ -6,6 +6,8 @@ Install script to install a DACHCOIN Masternode on Ubuntu 16.4 Linux on your own
 Simple Version, if you know how to setup the collateral, you dont need to read our PDF File.
 
 ************************************************************************************************
+UPDATED on 30.01.2019 to DACHX Wallet 1.0.1.1
+
 wget -N https://raw.githubusercontent.com/dachcoin/masternode-install/master/dach_install.sh
 
 bash dach_install.sh
