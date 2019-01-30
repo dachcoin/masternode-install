@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.dach'
 COIN_DAEMON='dachd'
 COIN_CLI='dach-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/dachcoin/dach/releases/download/v1.0.0.0/dach-1.0.0.0-x86_64-linux-gnu.tar.gz'
+COIN_TGZ='https://github.com/dachcoin/dach/releases/download/v1.0.1.1/dach-1.0.0.0-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='dach'
 COIN_PORT=31654
@@ -118,7 +118,7 @@ function update_config() {
   sed -i 's/daemon=1/daemon=0/' $CONFIGFOLDER/$CONFIG_FILE
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
 logintimestamps=1
-maxconnections=16
+maxconnections=256
 #bind=$NODEIP
 masternode=1
 externalip=$NODEIP:$COIN_PORT
